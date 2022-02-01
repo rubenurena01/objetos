@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Objetos y clases</title>
+        <script src="../js/script.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <form action="action.php" name="objetos">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            &nbsp;
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fechaN">
+            &nbsp;
+            <label for="curso">Estudios que cursas</label>
+            <input type="text" name="cursos" id="cursos">
+            &nbsp;
+            <input type="button" value="Crear estudiante" onclick="crear()">
+        </form>
+        <br><br>
+        <h1>Listado de estudiante</h1>
+        <div id="resultado"></div>
+    </body>
+</html>
